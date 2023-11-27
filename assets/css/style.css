@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:ital,wght@0,300;0,400;1,200;1,300&family=Roboto:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: roboto;
+  font-weight: 300;
+}
+.img-nav {
+  object-fit: contain;
+  height: 25px;
+}
+.main {
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+}
+/* .card{
+  border-radius: 10%;
+} */
+/* .custom-image {
+  object-fit: contain;
+  height: 350px;
+} */
+.place-style {
+  color: #707070;
+  margin-bottom: 0%;
+}
+hr {
+  margin-top: 0%;
+}
+.adress-style {
+  color: #707070;
+  display: flex;
+  gap: 5px;
+}
+.price {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  padding-right: 20px;
+  font-size: larger;
+}
+.price-normal {
+  color: #707070;
+}
+.price-offer {
+  font-weight: 800;
+  color: #28a745;
+}
+.section {
+  background-color: #28a745;
+  margin: 60px 0px 10px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.section h4 {
+  padding-bottom: 20px;
+  font-family: roboto;
+  font-weight: 500;
+}
+form div {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+form input{
+  color:#707070;
+}
+.footer {
+  text-align: center;
+}
+.img-style {
+  object-fit: contain;
+  width: 80px;
+}
